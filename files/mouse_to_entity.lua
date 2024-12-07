@@ -24,6 +24,7 @@ end
 --- @private
 --- @param entity_id entity_id
 function mte:drop_item(entity_id)
+	if ModIsEnabled("quant.ew") then GlobalsSetValue("ew_thrown", tostring(entity_id)) end
 	EntitySetTransform(entity_id, self.player_x, self.player_y - 3, 0, 1, 1)
 	EntityRemoveFromParent(entity_id)
 	EntitySetComponentsWithTagEnabled(entity_id, "enabled_in_inventory", false)
