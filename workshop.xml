@@ -1,0 +1,8 @@
+<Mod
+	name="Quick Drop"
+	description="Allows you to drop spells from wands or inventory by holding down a hotkey, right click by default."
+	tags="quality of life"
+	dont_upload_folders=""
+	dont_upload_files="README.md|.gitignore|settings.png"
+>
+</Mod>

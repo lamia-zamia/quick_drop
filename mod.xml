@@ -1,0 +1,6 @@
+<Mod
+	name="Quick Drop"
+	description="Allows quick dropping spells from inventories"
+	request_no_api_restrictions="0"
+>
+</Mod>
